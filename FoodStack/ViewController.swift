@@ -10,6 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let burgerButton = UIButton()
+    let pizzaButton = UIButton()
+    let sandwichButton = UIButton()
+    let tacoButton = UIButton()
+    let orderNowButton = UIButton()
+    let selectedItemThumbImage = UIImage(named: "burger")
+    let topViewHolder = UIView()
+    let mainThumbViewHolder = UIView()
+    let bottomViewHolder = UIView()
+    let topThumbButton = UIButton()
+    let topTitleLabel = UILabel()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
